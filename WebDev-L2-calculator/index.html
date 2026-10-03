@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oasis Infobyte Level 2 Task 1 - Calculator">
+    <title>Calculator | OIBSIP Level 2 Task 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="calculator-container">
+
+        <section class="calculator" aria-label="Calculator">
+
+            <div class="calculator-header">
+                <h1>Calculator</h1>
+                <p>OIBSIP • Level 2 Task 1</p>
+            </div>
+
+            <!-- Display -->
+            <div class="display-container">
+                <div
+                    id="display"
+                    class="display"
+                    aria-live="polite"
+                    aria-label="Calculator display"
+                >
+                    0
+                </div>
+            </div>
+
+            <!-- Calculator Buttons -->
+            <div class="buttons">
+
+                <!-- Row 1 -->
+                <button type="button" class="button clear" data-action="clear">
+                    C
+                </button>
+
+                <button type="button" class="button backspace" data-action="backspace">
+                    ⌫
+                </button>
+
+                <button type="button" class="button operator" data-operator="÷">
+                    ÷
+                </button>
+
+                <button type="button" class="button operator" data-operator="×">
+                    ×
+                </button>
+
+                <!-- Row 2 -->
+                <button type="button" class="button number" data-number="7">
+                    7
+                </button>
+
+                <button type="button" class="button number" data-number="8">
+                    8
+                </button>
+
+                <button type="button" class="button number" data-number="9">
+                    9
+                </button>
+
+                <button type="button" class="button operator" data-operator="−">
+                    −
+                </button>
+
+                <!-- Row 3 -->
+                <button type="button" class="button number" data-number="4">
+                    4
+                </button>
+
+                <button type="button" class="button number" data-number="5">
+                    5
+                </button>
+
+                <button type="button" class="button number" data-number="6">
+                    6
+                </button>
+
+                <button type="button" class="button operator" data-operator="+">
+                    +
+                </button>
+
+                <!-- Row 4 -->
+                <button type="button" class="button number" data-number="1">
+                    1
+                </button>
+
+                <button type="button" class="button number" data-number="2">
+                    2
+                </button>
+
+                <button type="button" class="button number" data-number="3">
+                    3
+                </button>
+
+                <button type="button" class="button equals" data-action="equals">
+                    =
+                </button>
+
+                <!-- Row 5 -->
+                <button type="button" class="button number zero" data-number="0">
+                    0
+                </button>
+
+                <button type="button" class="button number" data-number=".">
+                    .
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

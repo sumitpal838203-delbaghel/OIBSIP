@@ -1,5 +1,8 @@
 # OIBSIP Level 2 Task 1 – Calculator
 
+***LIVE DEMO:- https://sumitpal838203-delbaghel.github.io/OIBSIP/WebDev-L2-calculator/
+***Github Repo:- https://github.com/sumitpal838203-delbaghel/OIBSIP
+
 ## Project Overview
 
 This project is developed as part of the **Oasis Infobyte Web Development & Designing Internship – Level 2, Task 1**.
